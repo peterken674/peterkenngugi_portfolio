@@ -43,7 +43,7 @@ $portrait_small: url('../img/portrait_small.jpg');
     .menu-nav {
         height: 75vh;
         transform: translate3d(-100%, 0, 0);
-        font-size: 24px;
+        font-size: 16px;
     }
 
     .menu-branding {
@@ -52,8 +52,8 @@ $portrait_small: url('../img/portrait_small.jpg');
 
         .portrait {
             background: $portrait_small;
-            width: 150px;
-            height: 150px;
+            width: 100px;
+            height: 100px;
         }
     }
 
@@ -71,6 +71,8 @@ $portrait_small: url('../img/portrait_small.jpg');
     .projects {
         grid-template-columns: repeat(2, 1fr);
     }
+
+
 }
 
 //Smartphones
@@ -82,4 +84,18 @@ $portrait_small: url('../img/portrait_small.jpg');
     .projects {
         grid-template-columns: 1fr;
     }
+
+    .boxes {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0.7rem;
+        margin-top: 1rem;
+
+        div {
+            font-size: 17px;
+            padding: 1rem;
+            text-align: left;
+        }
+    }
+
 }
