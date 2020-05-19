@@ -19,10 +19,13 @@ $portrait_small: url('../img/portrait_small.jpg');
     main {
         align-items: center;
         text-align: center;
+        overflow: hidden;
 
         .lg-heading {
             line-height: 1;
+            //text-align: center;
             margin-bottom: 1rem;
+            font-size: 65px;
         }
     }
 

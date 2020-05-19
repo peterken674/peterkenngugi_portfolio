@@ -127,7 +127,8 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(0, 18, 35, 0.5); }
+    background: rgba(0, 18, 35, 0.5);
+    border-radius: 10px; }
 
 a {
   color: #fff;
@@ -247,10 +248,12 @@ main {
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
-    text-align: center; }
+    text-align: center;
+    overflow: hidden; }
     main .lg-heading {
       line-height: 1;
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+      font-size: 65px; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
