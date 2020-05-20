@@ -99,20 +99,39 @@ main {
 
     .job-1 {
         grid-area: job1;
+
+        &:hover {
+            background: lighten($color: $primary-color, $amount: 10);
+            @include easeOut;
+
+        }
     }
 
     .job-2 {
         grid-area: job2;
+
+        &:hover {
+            background: lighten($color: $primary-color, $amount: 10);
+
+            @include easeOut;
+        }
     }
 
     .job-3 {
         grid-area: job3;
+
+        &:hover {
+            background: lighten($color: $primary-color, $amount: 10);
+            @include easeOut;
+        }
     }
 
     .job {
         background: lighten($color: $primary-color, $amount: 5);
         padding: 0.5rem;
         border-bottom: $secondary-color 5px solid;
+        border-radius: 10px;
+
     }
 }
 
