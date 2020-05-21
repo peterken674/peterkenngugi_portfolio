@@ -174,14 +174,24 @@ main {
     font-size: 1.5rem; }
   .about-info .job-1 {
     grid-area: job1; }
+    .about-info .job-1:hover {
+      background: #00284c;
+      transition: all 0.5s ease-out; }
   .about-info .job-2 {
     grid-area: job2; }
+    .about-info .job-2:hover {
+      background: #00284c;
+      transition: all 0.5s ease-out; }
   .about-info .job-3 {
     grid-area: job3; }
+    .about-info .job-3:hover {
+      background: #00284c;
+      transition: all 0.5s ease-out; }
   .about-info .job {
     background: #001a33;
     padding: 0.5rem;
-    border-bottom: #00CCFF 5px solid; }
+    border-bottom: #00CCFF 5px solid;
+    border-radius: 10px; }
 
 .projects {
   display: grid;
